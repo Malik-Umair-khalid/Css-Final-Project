@@ -1,0 +1,5 @@
+.nav_div{
+    display: block;
+    justify-content: flex-end;
+    float: left !important;
+}
