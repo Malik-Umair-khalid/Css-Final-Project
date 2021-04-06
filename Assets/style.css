@@ -1,5 +1,114 @@
-.nav_div{
-    display: block;
-    justify-content: flex-end;
-    float: left !important;
+@font-face {
+    font-family: ;
+    src: url(Assets\Font\mesmerize-sc-bk.ttf);
 }
+.right{
+   display: flex;
+   justify-content: flex-end;
+}
+.dot_div{
+    position: relative;
+}
+.dot{
+    position: absolute;
+    font-size: 5px;
+    color: red;
+    font-weight: bold;
+    right: 6px;
+    top: 12px;
+    background-color: red; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
