@@ -19,7 +19,24 @@
     top: 12px;
     background-color: red; 
 }
-
+.cover{
+    margin: 0 auto;
+}
+.cover_image{
+    margin-left: px; 
+}
+.cover_discription{
+     display: flex;
+     align-items: center;
+}
+.discriprion_div{
+    display: block !important;
+}
+.image_div{
+    display: flex;
+    justify-content: center;
+    
+}
 
 
 
