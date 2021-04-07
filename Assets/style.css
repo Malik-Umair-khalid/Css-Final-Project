@@ -12,15 +12,12 @@ body{
 .dot_div{
     position: relative;
     display: inline;
+    margin-top: 8px;
+    font-size: 15px;
+    
 }
 .dot{
-    position: absolute;
-    font-size: 5px;
-    color: red;
-    font-weight: bold;
-    right: 6px;
-    top: 12px;
-    background-color: red; 
+  width: 15px;
 }
 .cover{
     margin: 0 auto;
