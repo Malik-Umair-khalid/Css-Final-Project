@@ -48,6 +48,17 @@ body{
 .Disc_h6{
     font-size: 15px;
 }
+.shef_image{
+    width: 100%;
+    border-radius: 5px;
+    background-color: #f8fbf5;
+}
+.welcome{
+    color: coral;
+}
+.btn_explore{
+    margin-top: 10px;
+}
 
 
 
