@@ -2,6 +2,9 @@
     font-family: ;
     src: url(Assets\Font\mesmerize-sc-bk.ttf);
 }
+body{
+    font-family: system-ui, system-ui, sans-serif;
+}
 .right{
    display: flex;
    justify-content: flex-end;
@@ -35,7 +38,18 @@
 .image_div{
     display: flex;
     justify-content: center;
-    
+}
+.btn_started{
+    float: right;
+    display: inline-flex;
+}
+.input{
+    width: 100% !important;
+    display: inline-flex;
+    margin-top: 20px;
+}
+.Disc_h6{
+    font-size: 15px;
 }
 
 
