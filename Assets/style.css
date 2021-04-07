@@ -8,6 +8,7 @@
 }
 .dot_div{
     position: relative;
+    display: inline;
 }
 .dot{
     position: absolute;
