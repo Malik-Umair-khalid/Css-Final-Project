@@ -116,6 +116,7 @@ body{
     padding-bottom: 10px;
     border-left: 5px solid rgb(241, 241, 241);
     transition: 1s;
+    margin-left: 0;
 }
 .menu>ol>li:hover{
     color: rgb(245, 117, 32);
@@ -124,6 +125,7 @@ body{
 }
 .menu>ol{
     align-items: center;
+    padding-left: 0;
 }
 .mycard1>p{
     color: rgb(245, 117, 32);
@@ -157,8 +159,41 @@ body{
     width: 89%;
     margin: 0 auto;
 }
-
-
+.mycard2{
+    text-align: left;
+    padding-top: 20px;
+    background-color: #f8fbf5;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+.mycard2:hover{
+    border-bottom: 5px solid rgb(140, 187, 69);
+    padding-bottom: 15px;
+}
+.mycard2>img{
+    width: 100%;
+    border-radius: 8px;
+}
+.mycard2>.tikka{
+    width: 90%;
+    border-radius: 8px;
+}
+.subscribe>.address{
+    width: 500px;
+    height: 40px ;
+    border-radius: 50px;
+}
+.subscribe{
+    display: flex;
+    justify-content: center;
+}
+.btn_explore1{
+    margin-top: 0;
+    height: 40px !important;
+    width: 40px !important ;
+    border-radius: 100px !important ;
+}
 
 
 
