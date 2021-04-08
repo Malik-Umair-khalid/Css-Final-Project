@@ -28,6 +28,7 @@ body{
 .cover_discription{
      display: flex;
      align-items: center;
+     text-align: center;
 }
 .discriprion_div{
     display: block !important;
@@ -79,15 +80,11 @@ body{
     background-color: #f8fbf5;
     border-radius: 5px;
     cursor: pointer;
-    transition: 1s;
+    padding-bottom: 20px;
 }
 .mycard:hover{
     border-bottom: 5px solid greenyellow;
-    position: absolute;  
-    box-shadow: 5px 5px;
-    opacity: 0.9;  
-    padding-left: 20px;
-    padding-right: 20px; 
+    padding-bottom: 15px;
 }
 
 
