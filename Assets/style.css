@@ -59,8 +59,26 @@ body{
 .btn_explore{
     margin-top: 10px;
 }
-
-
+.question{
+    text-align: center;
+}
+.question>p{
+    color: chocolate;
+}
+.mycard>img{
+    margin: 0 auto;
+    width: 50px;
+}
+.mycard{
+    text-align: center;
+    padding-top: 20px;
+    background-color: #f8fbf5;
+    border-radius: 5px;
+}
+.mycard:hover{
+    border-bottom: 5px solid greenyellow;
+    position: absolute;     
+}
 
 
 
