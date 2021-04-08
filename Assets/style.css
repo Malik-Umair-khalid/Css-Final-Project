@@ -28,10 +28,19 @@ body{
 .cover_discription{
      display: flex;
      align-items: center;
-     text-align: center;
 }
 .discriprion_div{
     display: block !important;
+}
+.discriprion_div>.history{
+    color: coral;
+}
+.discriprion_div>h1{
+    font-size: 60px;
+}
+.discriprion_div>p{
+    font-size: 15px;
+    margin: 0 auto;
 }
 .image_div{
     display: flex;
@@ -42,15 +51,18 @@ body{
 }
 .btn_started{
     float: right;
-    display: inline-flex;
+    display: inline-flex;'
+    box-shadow: 2px 5px;
+    
 }
 .input{
     width: 100% !important;
     display: inline-flex;
     margin-top: 20px;
 }
-.Disc_h6{
-    font-size: 15px;
+.input>input{
+    border-radius: 40px;
+    width: 50px;
 }
 .shef_image{
     width: 100%;
@@ -63,6 +75,8 @@ body{
 }
 .btn_explore{
     margin-top: 10px;
+    padding: 10px !important;
+    font-size: 12px !important;
 }
 .question{
     text-align: center;
@@ -98,8 +112,8 @@ body{
     margin: 10px;
     font-size: 13px;
     cursor: pointer;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-left: 5px solid rgb(241, 241, 241);
     transition: 1s;
 }
@@ -137,6 +151,11 @@ body{
 }
 .mycard1>img{
     width: 100%;
+    margin: 0 auto;
+}
+.mycard1>.bread{
+    width: 89%;
+    margin: 0 auto;
 }
 
 
