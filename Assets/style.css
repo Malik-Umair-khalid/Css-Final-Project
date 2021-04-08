@@ -31,6 +31,8 @@ body{
 }
 .discriprion_div{
     display: block !important;
+    background-color: #f8fbf5;
+    border-radius: 5px;
 }
 .discriprion_div>.history{
     color: coral;
@@ -193,6 +195,27 @@ body{
     height: 40px !important;
     width: 40px !important ;
     border-radius: 100px !important ;
+}
+.btn_explore2{
+    margin-top: 0;
+    height: 40px !important;
+    width: 40px !important ;
+    border-radius: 5px !important ;
+}
+.footer{
+    margin-top: 100px;
+}
+.list>ul>li{
+    list-style-type: none;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+}
+.logo2>p{
+    margin-top: 10px;
 }
 
 
